@@ -16,13 +16,14 @@ export default function ProgressCard() {
     return (
         <>
             <div className='border-2 p-10 w-[300px]'>
-                <h2 className='font-mono '>Attendance</h2>
+                <h2 className='font-mono text-md'>Attendance</h2>
                 <Progress value={progress} className=""/>
             </div>
             <div className='border-2 p-10 w-[300px]'>
-                <h2 className='font-mono '>Performance</h2>
+                <h2 className='font-mono text-md'>Performance</h2>
                 <Progress value={performance} className=""/>
             </div>
+
         </>
 
     );
