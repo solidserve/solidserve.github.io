@@ -4,7 +4,7 @@ import {
     ResizablePanelGroup,
 } from "@/components/ui/resizable"
 import Sidebar from "@/components/Sidebar";
-import Attendance from "@/components/Attendance";
+import ProgressCard from "@/components/ProgressCard";
 
 export default function Main() {
     return (
@@ -23,7 +23,7 @@ export default function Main() {
                     <ResizablePanelGroup direction="vertical">
                         <ResizablePanel defaultSize={15}>
                             <div className="flex h-full items-start justify-items-start">
-                                <Attendance />
+                                <ProgressCard />
                             </div>
                         </ResizablePanel>
                         <ResizableHandle />
