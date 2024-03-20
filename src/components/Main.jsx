@@ -3,6 +3,8 @@ import {
     ResizablePanel,
     ResizablePanelGroup,
 } from "@/components/ui/resizable"
+import Sidebar from "@/components/Sidebar";
+
 export default function Main() {
     return (
         <div className="flex flex-col h-svh">
@@ -12,7 +14,7 @@ export default function Main() {
             >
                 <ResizablePanel defaultSize={18}>
                     <div className="flex h-[200px] items-center justify-center p-6">
-
+                        <Sidebar />
                     </div>
                 </ResizablePanel>
                 <ResizableHandle />

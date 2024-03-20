@@ -59,3 +59,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+.new-transaction {
+  background-color: #22D184;
+  color: white;
+  border-radius: 2em;
+  transition: 0.3s ease-out;
+  box-shadow: black;
+
+}
+.new-transaction:hover {
+  color: black;
+  transition: 0.3s ease-in;
+
+}
