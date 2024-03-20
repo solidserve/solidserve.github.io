@@ -73,7 +73,7 @@ export default function Sidebar() {
 
             </div>
             <div className='grid grid-cols-1 mt-2'>
-                <p className='justify-center align-middle font-extralight text-gray-300'>Settings</p>
+                <p className='justify-center align-middle font-extralight text-gray-300 text-sm'>Settings</p>
                 <Separator/>
             </div>
             <div className='mt-2'>
