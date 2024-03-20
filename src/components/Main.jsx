@@ -27,7 +27,7 @@ export default function Main() {
                         </ResizablePanel>
                         <ResizableHandle />
                         <ResizablePanel defaultSize={85}>
-                            <div className="flex h-full items-center justify-center p-6">
+                            <div className="flex items-center justify-center p-6">
 
                             </div>
                         </ResizablePanel>
