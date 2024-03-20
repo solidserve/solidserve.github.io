@@ -1,7 +1,7 @@
 'use client'
 import { Progress } from "@/components/ui/progress"
 import React from 'react'
-export default function Attendance() {
+export default function ProgressCard() {
     const [progress, setProgress] = React.useState(13)
     const [performance, setPerformance] = React.useState(13)
     React.useEffect(() => {
