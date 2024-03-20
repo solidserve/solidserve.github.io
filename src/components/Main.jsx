@@ -13,7 +13,7 @@ export default function Main() {
                 className="max-w-screen-2xl rounded-lg border"
             >
                 <ResizablePanel defaultSize={18}>
-                    <div className="flex h-[200px] items-center justify-center p-6">
+                    <div className="flex items-center justify-center p-6">
                         <Sidebar />
                     </div>
                 </ResizablePanel>

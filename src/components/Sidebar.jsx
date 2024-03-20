@@ -6,9 +6,8 @@ import {Separator} from "@/components/ui/separator";
 
 export default function Sidebar() {
     return (
-        <div className='grid grid-cols-1 justify-evenly mt-20 pt-20'>
-
-            <div className='mt-10'>
+        <div className='grid grid-cols-1 justify-evenly '>
+            <div>
                 <div className='mt-2 grid grid-cols-1'>
                     <div className=' grid grid-cols-1'>
                         <Button className='new-transaction'> + New Transaction</Button>
