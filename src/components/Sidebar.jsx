@@ -7,30 +7,29 @@ export default function Sidebar() {
     return (
         <div className='grid grid-cols-1 justify-evenly mt-20 pt-20'>
 
-            <div className=''>
-
-                <div className='grid grid-cols-1'>
-                    <div className='grid grid-cols-1'>
+            <div className='mt-5'>
+                <div className='mt-2 grid grid-cols-1'>
+                    <div className=' grid grid-cols-1'>
                         <Button className='new-transaction'> + New Transaction</Button>
                     </div>
-                    <div className='m-2 grid content-stretch'>
+                    <div className='mt-3 m-1 grid content-stretch'>
                         <Button>Home</Button>
                     </div>
 
-                    <div className='m-2 grid content-stretch'>
-                        <Button>Training Kit</Button>
+                    <div className='m-1 grid content-stretch'>
+                        <Button className='bg-secondary text-white font-extralight border-10'>Training Kit</Button>
                     </div>
 
-                    <div className='m-2 grid content-stretch'>
-                        <Button>Inbox</Button>
+                    <div className='m-1 grid content-stretch'>
+                        <Button className='bg-secondary text-white font-extralight border-10'>Inbox</Button>
                     </div>
 
-                    <div className='m-2 grid content-stretch'>
-                        <Button>Tokens</Button>
+                    <div className='m-1 grid content-stretch'>
+                        <Button className='bg-secondary text-white font-extralight border-10'>Tokens</Button>
                     </div>
 
-                    <div className='m-2 grid content-stretch'>
-                        <Button>Customers</Button>
+                    <div className='m-1 grid content-stretch'>
+                        <Button className='bg-secondary text-white font-extralight border-10'>Customers</Button>
                     </div>
                 </div>
 
