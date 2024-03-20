@@ -79,7 +79,7 @@ export default function Sidebar() {
             <div className='mt-2'>
 
                 <div className='mt-5 ml-2 flex items-center space-x-2'>
-                    <Switch id="ui-mode"/>
+                    <Switch checked={true} id="ui-mode"/>
                     <Label htmlFor="ui-mode">Dark Mode</Label>
                 </div>
             </div>
